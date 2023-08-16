@@ -1,0 +1,36 @@
+{
+  "name": "yourq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "nodemon express-backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamilkeheliya/yourQ.git"
+  },
+  "author": "Shamil Keheliya Muhandiram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamilkeheliya/yourQ/issues"
+  },
+  "homepage": "https://github.com/shamilkeheliya/yourQ#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.0",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
