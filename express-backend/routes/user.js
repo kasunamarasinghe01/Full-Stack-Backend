@@ -24,7 +24,7 @@ user.post('/create', async (req, res) => {
                 password: hash,
             });
         
-            const dataToSave = await data.save();
+            const dataToSave = await data.save(); 
             res.status(200).json({uid: dataToSave.id});
         });
     }
